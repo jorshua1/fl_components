@@ -45,7 +45,17 @@ class AppRoutes {
         route: 'input',
         name: 'Input Screen',
         widget: const InputScreen(),
-        icon: Icons.format_list_numbered_rtl)
+        icon: Icons.format_list_numbered_rtl),
+    MenuOption(
+        route: 'slide',
+        name: 'Slide Screen',
+        widget: const SliderScreen(),
+        icon: Icons.sledding_rounded),
+    MenuOption(
+        route: 'listviewbuilder',
+        name: 'ListviewBuilder Screen',
+        widget: const ListViewBuilderScreen(),
+        icon: Icons.sledding_rounded)
   ];
 
   // Regresa un metodo que devolvera un mapa y esta apunta a una funcion que recibe un buildcontext

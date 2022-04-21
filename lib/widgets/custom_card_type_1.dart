@@ -42,7 +42,12 @@ class CustomCardType1 extends StatelessWidget {
                   onPressed: () {
                     Navigator.pushNamed(context, 'home');
                   },
-                  child: const Text('ok'))
+                  child: const Text('ok')),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('prueba'),
+                style: ElevatedButton.styleFrom(primary: Colors.amber),
+              )
             ],
           ),
         )
